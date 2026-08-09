@@ -1,0 +1,13 @@
+Characteristic,TCGA-ESCA (development),GSE53625 (locked external)
+"Patients, n",182,60
+"Deaths, n (%)",77 (42.3%),33 (55.0%)
+"Age, median (IQR), years",60.7 (54.3-71.9),60.2 (53.9-66.3)
+"Male, n (%)",158 (86.8%),48 (80.0%)
+"Histology: ESCC, n (%)",94 (51.6%),60 (100.0%)
+"Histology: EAC, n (%)",88 (48.4%),0 (0.0%)
+"Stage I, n (%)",20 (11.0%),4 (6.7%)
+"Stage II, n (%)",76 (41.8%),30 (50.0%)
+"Stage III, n (%)",67 (36.8%),26 (43.3%)
+"Stage IV, n (%)",8 (4.4%),0 (0.0%)
+"Stage UNKNOWN, n (%)",11 (6.0%),0 (0.0%)
+"Observed time, median (IQR), days",396.5 (231.2-675.8),1197.2 (385.3-1620.0)

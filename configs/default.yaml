@@ -1,0 +1,106 @@
+project:
+  seed: 20260721
+  artifacts_dir: artifacts/default
+
+data:
+  tcga_metadata: TCGA_ESCA_Metadata.csv
+  tcga_vst: ESCA_vst_normalized_matrix.csv
+  tcga_counts: TCGA_ESCA_STAR_Counts.csv
+  source_manifest: Data/GEO_raw/SOURCE_MANIFEST.tsv
+  hpa_proteinatlas: Data/HPA/proteinatlas.tsv
+  gse160269_dir: Data/GEO_raw/GSE160269
+  gse160269_tisch_metadata: Data/TISCH2/ESCA_GSE160269/ESCA_GSE160269_CellMetainfo_table.tsv
+  gse154763_dir: Data/GEO_raw/GSE154763
+  pathways:
+    - Data/h.all.v2026.1.Hs.symbols.gmt
+    - Data/c2.cp.reactome.v2026.1.Hs.symbols.gmt
+    - Data/c2.cp.kegg_medicus.v2026.1.Hs.symbols.gmt
+    - Data/c7.immunesigdb.v2026.1.Hs.symbols.gmt
+
+cohort:
+  min_time_days: 1.0
+  include_histologies: [ESCC, EAC]
+
+reference:
+  include_gse160269: true
+  include_gse154763: true
+  state_field: Celltype (major-lineage)
+  max_genes: null
+  max_cells_per_compartment: null
+  gse154763_chunksize: 256
+  normalization_target: 10000.0
+
+features:
+  backend: robust_nnls
+  markers_per_state: 40
+  min_state_donors: 2
+  max_pathways: 24
+  min_pathway_genes: 8
+  max_pathway_genes: 500
+  robust_iterations: 5
+  huber_delta: 1.5
+  transport_epsilon: 0.15
+  mass_penalty: 0.8
+  target_mass_penalty: 0.0
+  transport_iterations: 500
+  transport_tolerance: 1.0e-7
+  protein_prior_strength: 0.25
+
+benchmark:
+  outer_folds: 5
+  outer_repeats: 10
+  inner_folds: 4
+  models: [survivalpfn, elastic_net_cox, xgb_aft, random_survival_forest]
+  primary_metric: uno_c
+  time_grid_days: [365, 1095, 1825]
+  survivalpfn:
+    device: cpu
+    model_path: shi-ang/SurvivalPFN
+    model_revision: main
+    calibrate: false
+    vendor_path: third_party/SurvivalPFN
+
+ablations:
+  primary_representation: robust_nnls_hpa
+  models: [survivalpfn, elastic_net_cox]
+  representations:
+    - name: unbalanced_ot_hpa
+      backend: unbalanced_ot
+      use_protein_priors: true
+      target_mass_penalty: 0.0
+    - name: unbalanced_ot_no_hpa
+      backend: unbalanced_ot
+      use_protein_priors: false
+    - name: unbalanced_ot_no_unknown
+      backend: unbalanced_ot
+      use_protein_priors: true
+      drop_features: [recast__unknown_score]
+    - name: robust_nnls_hpa
+      backend: robust_nnls
+      use_protein_priors: true
+
+technical_validation:
+  mixtures_per_scenario: 500
+
+biology:
+  marker_bootstrap_iterations: 500
+  markers_per_state: 40
+  candidate_multiplier: 5
+  stable_frequency: 0.70
+
+external_validation:
+  prepared_root: step8_geo_prepared
+  accessions: [GSE53624, GSE53625]
+  gpl19748_soft: Data/GEO_raw/GPL19748/GPL19748_family.soft.gz
+  primary_series: GSE53625
+  overlap_series: GSE53624
+  bootstrap_iterations: 2000
+  clinical_models: [survivalpfn, elastic_net_cox]
+
+q1_extension:
+  protocol_frozen_on: 2026-07-22
+  mixtures_per_donor: 5
+  donor_bootstrap_iterations: 2000
+  gencode_release: 50
+  gencode_assembly: GRCh38.p14
+  gencode_transcripts: Data/GENCODE/v50/gencode.v50.transcripts.fa.gz

@@ -1,0 +1,90 @@
+project:
+  seed: 20260721
+  artifacts_dir: artifacts/smoke
+
+data:
+  tcga_metadata: TCGA_ESCA_Metadata.csv
+  tcga_vst: ESCA_vst_normalized_matrix.csv
+  tcga_counts: TCGA_ESCA_STAR_Counts.csv
+  source_manifest: Data/GEO_raw/SOURCE_MANIFEST.tsv
+  hpa_proteinatlas: Data/HPA/proteinatlas.tsv
+  gse160269_dir: Data/GEO_raw/GSE160269
+  gse160269_tisch_metadata: Data/TISCH2/ESCA_GSE160269/ESCA_GSE160269_CellMetainfo_table.tsv
+  gse154763_dir: Data/GEO_raw/GSE154763
+  pathways:
+    - Data/h.all.v2026.1.Hs.symbols.gmt
+    - Data/c2.cp.reactome.v2026.1.Hs.symbols.gmt
+
+cohort:
+  min_time_days: 1.0
+  include_histologies: [ESCC, EAC]
+
+reference:
+  include_gse160269: true
+  # GSE154763 is intentionally excluded only here: its file is ordered by
+  # genomic position whereas GSE160269 is alphabetic, so first-N gene
+  # truncation has too little overlap. The full configuration integrates both.
+  include_gse154763: false
+  state_field: Celltype (major-lineage)
+  max_genes: 96
+  max_cells_per_compartment: 2000
+  gse154763_chunksize: 256
+  normalization_target: 10000.0
+
+features:
+  backend: robust_nnls
+  markers_per_state: 12
+  min_state_donors: 1
+  max_pathways: 24
+  min_pathway_genes: 3
+  max_pathway_genes: 500
+  robust_iterations: 3
+  huber_delta: 1.5
+  transport_epsilon: 0.15
+  mass_penalty: 0.8
+  target_mass_penalty: 0.0
+  transport_iterations: 200
+  transport_tolerance: 1.0e-6
+  protein_prior_strength: 0.25
+
+benchmark:
+  outer_folds: 3
+  outer_repeats: 1
+  inner_folds: 2
+  models: [survivalpfn, elastic_net_cox, xgb_aft]
+  primary_metric: uno_c
+  time_grid_days: [365, 1095]
+  survivalpfn:
+    device: cpu
+    model_path: shi-ang/SurvivalPFN
+    model_revision: main
+    calibrate: false
+    vendor_path: third_party/SurvivalPFN
+
+ablations:
+  primary_representation: robust_nnls_hpa
+  models: [survivalpfn, elastic_net_cox]
+  representations:
+    - name: unbalanced_ot_hpa
+      backend: unbalanced_ot
+      use_protein_priors: true
+      target_mass_penalty: 0.0
+    - name: unbalanced_ot_no_hpa
+      backend: unbalanced_ot
+      use_protein_priors: false
+    - name: unbalanced_ot_no_unknown
+      backend: unbalanced_ot
+      use_protein_priors: true
+      drop_features: [recast__unknown_score]
+    - name: robust_nnls_hpa
+      backend: robust_nnls
+      use_protein_priors: true
+
+technical_validation:
+  mixtures_per_scenario: 100
+
+biology:
+  marker_bootstrap_iterations: 10
+  markers_per_state: 6
+  candidate_multiplier: 3
+  stable_frequency: 0.60

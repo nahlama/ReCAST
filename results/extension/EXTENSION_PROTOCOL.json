@@ -1,0 +1,28 @@
+{
+  "clinical_utility_horizons_days": [
+    365,
+    1095
+  ],
+  "comparators": [
+    "robust_nnls_hpa",
+    "ordinary_nnls",
+    "ridge_nnls",
+    "simplex_nnls",
+    "nu_svr",
+    "unbalanced_ot_hpa"
+  ],
+  "decision_threshold_range": [
+    0.05,
+    0.6
+  ],
+  "external_omics_policy": "requires a versioned sequence-to-gene mapping before any gene-level confirmation",
+  "external_policy": "no outcome-driven feature selection, threshold tuning, or recalibration in GSE53625",
+  "frozen_on": "2026-07-22",
+  "primary_projection_method": "HPA-weighted robust NNLS fixed before these analyses",
+  "projection_primary_metric": "donor-clustered mean state-composition MAE",
+  "projection_validation": "leave-one-donor-out anchors; pseudo-bulk mixtures from the held-out donor only",
+  "role": "secondary and exploratory; does not replace the completed confirmatory benchmark",
+  "seed": 20260721,
+  "subgroup_policy": "EAC/ESCC descriptive metrics plus interaction tests; no subgroup superiority claims",
+  "title": "Locked secondary protocol for Q1-strengthening analyses"
+}

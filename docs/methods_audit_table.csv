@@ -1,0 +1,21 @@
+claim,evidence_artifact,auditor_note,leakage_risk,status
+"TCGA primary-tumour OS cohort has 182 patients and 77 deaths",artifacts/final/cohort/summary.json,"Built from sample-level metadata with one primary tumour per patient",None,VERIFIED
+"Single-cell reference summarizes 216332 cells from 67 patients",artifacts/final/reference/summary.json,"Built from genuine GSE160269 cell counts and GSE154763 cell-level normalized data",None,VERIFIED
+"Reference construction is donor-first",src/recast_surv/recast.py,"Donor profiles are collapsed before state medians",None,VERIFIED
+"Robust NNLS is more accurate than UOT in stated simulations",artifacts/final/technical_validation/summary.csv,"Three scenarios with 500 mixtures each",None,VERIFIED
+"Unknown score is a normalized reconstruction residual",src/recast_surv/recast.py,"It is not an unknown-cell fraction or transported mass",None,VERIFIED
+"All preprocessing is training-fitted",src/recast_surv/models.py,"Median imputation constant filtering and scaling are fitted per fold",None,VERIFIED
+"Nested patient-level split manifest is complete",artifacts/final/benchmark/split_manifest.csv,"Every patient appears once as test per repeat",None,VERIFIED
+"No single clinical model dominates confirmatory and external evaluation",artifacts/final/challengers/survpfn/clinical_model_comparison_internal.csv,"Cox leads internal Uno C; SurvivalPFN leads external Uno C; June SurvPFN does not replace either",None,VERIFIED
+"June-2026 SurvPFN used the identical locked clinical splits",artifacts/final/challengers/survpfn/split_validation.json,"50 outer folds; 1820 held-out predictions; exact input and checkpoint hashes recorded",None,VERIFIED
+"June-2026 SurvPFN does not improve the locked primary comparison",artifacts/final/challengers/survpfn/paired_model_comparisons.csv,"Uno C tied SurvivalPFN within uncertainty but internal IBS was significantly worse",None,VERIFIED
+"ReCAST does not improve SurvivalPFN in confirmatory testing",artifacts/final/benchmark/paired_comparisons.csv,"Paired 50-fold Uno C and IBS changes are negative",None,VERIFIED
+"GSE53625 contains all GSE53624 patients",artifacts/final/external_validation/audit/audit_report.json,"Only 60 non-overlapping patients constitute the external subset","High if ignored",VERIFIED
+"External clinical validation uses 60 non-overlapping patients",artifacts/final/external_validation/clinical_model_comparison.csv,"33 deaths; external outcomes were not used for hyperparameter tuning",None,VERIFIED
+"External gene matrices are not validated gene-level data",artifacts/final/external_validation/audit/cohort_audit.csv,"Only 72 rows and zero traceability to the platform crosswalk","High if used",BLOCKED
+"GPL18109 exact-sequence crosswalk is reproducible",artifacts/final/external_validation/audit/GPL18109_to_GPL19748_sequence_crosswalk.csv.gz,"63204 unique probe-name matches but no direct current gene-symbol mapping",None,VERIFIED
+"Method literature cutoff is June 30 2026",METHOD_SELECTION.md,"Post-cutoff methods cannot enter primary selection",None,LOCKED
+"SVG figures use editable bold Times New Roman text",artifacts/final/figures/figure_manifest.csv,"svg.fonttype is none and installed font is verified",None,VERIFIED
+"Prominent state markers are outcome-free and donor-bootstrap stable",artifacts/final/biology/prominent_markers.csv,"500 replicates; bounded rank contrast; 447 stable state-gene pairs",None,VERIFIED
+"Gene and pathway survival associations are exploratory only",artifacts/final/biology/summary.json,"No gene among 92 or pathway among 24 passed BH FDR below 0.05","High if nominal P values are called significant",VERIFIED
+"Biological association figures preserve the negative multiplicity result",artifacts/final/figures/figure6_exploratory_associations.svg,"Figure title explicitly states that no feature passed BH FDR below 0.05",None,VERIFIED

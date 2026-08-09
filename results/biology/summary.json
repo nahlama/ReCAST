@@ -1,0 +1,20 @@
+{
+  "association_model": "clinical-adjusted Cox; effect per one SD; BH FDR within gene and pathway families",
+  "bootstrap_iterations": 500,
+  "candidate_pool_genes": 1418,
+  "external_gene_validation": "blocked_untraceable_platform_annotation",
+  "gene_fdr_lt_0_05": 0,
+  "genes_tested_for_survival": 92,
+  "markers_per_state_per_bootstrap": 40,
+  "method": "donor-state median; candidate pool top 5x markers by bounded within-state rank contrast; donor bootstrap",
+  "pathway_fdr_lt_0_05": 0,
+  "pathways_tested_for_survival": 24,
+  "seed": 20260721,
+  "shared_genes": 11948,
+  "stability_model": "ridge Cox coefficients across the 50 locked outer training sets",
+  "stable_frequency_threshold": 0.7,
+  "stable_state_gene_pairs": 447,
+  "states": 13,
+  "survival_analysis_status": "exploratory_internal_only",
+  "unique_prominent_genes": 92
+}

@@ -1,0 +1,15 @@
+{
+  "analysis_role": "locked external molecular confirmation after versioned reannotation",
+  "claim_boundary": "external associations are confirmatory only for prespecified genes/pathways; no external feature selection or recalibration",
+  "direction_concordance_fraction": 0.5333333333333333,
+  "external_association_model": "ridge Cox penalizer=0.05; clinical adjusted; effect per one SD; BH FDR by family",
+  "external_events": 33,
+  "external_gene_fdr_lt_0_05": 0,
+  "external_pathway_fdr_lt_0_05": 0,
+  "external_pathways_tested": 24,
+  "external_patients": 60,
+  "mapped_external_genes": 24104,
+  "prominent_genes_available": 75,
+  "prominent_genes_requested": 92,
+  "tcga_external_gene_overlap": 19722
+}

@@ -1,0 +1,6 @@
+Model,Interaction log hr,Interaction hr,Ci95 low,Ci95 high,P value,Fdr bh
+Elastic-net Cox,0.3691,1.4464,0.9464,2.2105,0.0881,0.1754
+Random survival forest,0.1948,1.2151,0.7792,1.8948,0.3901,0.3901
+SurvivalPFN,0.3181,1.3745,0.875,2.159,0.1674,0.2093
+SurvPFN (June 2026),0.4998,1.6484,1.0643,2.5529,0.0251,0.1257
+XGBoost-AFT,0.3704,1.4483,0.9252,2.267,0.1052,0.1754

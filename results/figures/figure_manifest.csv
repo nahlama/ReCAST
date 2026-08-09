@@ -1,0 +1,7 @@
+figure,path,source_artifacts,format,font_family,font_weight
+figure1_workflow.svg,/mnt/d/My-Work/Esophageal/New/artifacts/final/figures/figure1_workflow.svg,"cohort, reference, and feature summaries",editable_svg,Times New Roman,bold
+figure2_technical_validation.svg,/mnt/d/My-Work/Esophageal/New/artifacts/final/figures/figure2_technical_validation.svg,technical_validation/summary.csv,editable_svg,Times New Roman,bold
+figure3_internal_benchmark.svg,/mnt/d/My-Work/Esophageal/New/artifacts/final/figures/figure3_internal_benchmark.svg,benchmark/summary.csv and challengers/survpfn/summary.csv,editable_svg,Times New Roman,bold
+figure4_external_validation.svg,/mnt/d/My-Work/Esophageal/New/artifacts/final/figures/figure4_external_validation.svg,extended external clinical model comparison and audit,editable_svg,Times New Roman,bold
+figure5_marker_stability.svg,/mnt/d/My-Work/Esophageal/New/artifacts/final/figures/figure5_marker_stability.svg,biology/prominent_markers.csv and marker_stability_all.csv,editable_svg,Times New Roman,bold
+figure6_exploratory_associations.svg,/mnt/d/My-Work/Esophageal/New/artifacts/final/figures/figure6_exploratory_associations.svg,biology exploratory gene and pathway survival tables,editable_svg,Times New Roman,bold

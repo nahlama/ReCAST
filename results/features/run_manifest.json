@@ -1,0 +1,32 @@
+{
+  "command": "build-features",
+  "python": "3.11.15 | packaged by conda-forge | (main, Mar  5 2026, 16:45:40) [GCC 14.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.40",
+  "inputs": [
+    {
+      "path": "/mnt/d/My-Work/Esophageal/New/Data/h.all.v2026.1.Hs.symbols.gmt",
+      "bytes": 48686,
+      "sha256": "EECAF6DAD908334AE885406EC72BDC0646D8917588ED7C219FAC92FC5363F596"
+    },
+    {
+      "path": "/mnt/d/My-Work/Esophageal/New/Data/c2.cp.reactome.v2026.1.Hs.symbols.gmt",
+      "bytes": 898680,
+      "sha256": "5D61F289A2400CDDFBB3A3353829FD2284A360BBE50F2093B566C4B7BEA93341"
+    },
+    {
+      "path": "/mnt/d/My-Work/Esophageal/New/Data/c2.cp.kegg_medicus.v2026.1.Hs.symbols.gmt",
+      "bytes": 177277,
+      "sha256": "E257052D604CB2F386F8372B3FB9B494095688AC8AE0D72BA947CC00F5628CB1"
+    },
+    {
+      "path": "/mnt/d/My-Work/Esophageal/New/Data/c7.immunesigdb.v2026.1.Hs.symbols.gmt",
+      "bytes": 6663803,
+      "sha256": "FACFEFF5FECA6BCEF83ABF7BDE88043096C441B718E74C862B6248404CF97F5D"
+    },
+    {
+      "path": "/mnt/d/My-Work/Esophageal/New/Data/HPA/proteinatlas.tsv",
+      "bytes": 39008173,
+      "sha256": "1955106EA4D5E47A9B7449D5BB6FEB6158A83BA39661CF1DF3838C7CA2E09BD4"
+    }
+  ]
+}

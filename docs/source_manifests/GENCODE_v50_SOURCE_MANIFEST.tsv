@@ -1,0 +1,2 @@
+resource	release	assembly	url	sha256	bytes	downloaded_utc	usage
+GENCODE transcript sequences	50	GRCh38.p14	https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/gencode.v50.transcripts.fa.gz	5a320f524d73b5793518eb19b118829033713443d0f42af20a67bb31cc06cf56	183554921	2026-07-21T18:45:00Z	Strict full-length exact external probe-to-gene reannotation

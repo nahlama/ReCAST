@@ -1,0 +1,15 @@
+{
+  "analysis_role": "secondary_exploratory_clinical_utility",
+  "external_dca": "locked predictions without recalibration; evaluation-cohort censoring weights",
+  "horizons_days": [
+    365,
+    1095
+  ],
+  "internal_dca": "pooled outer-test predictions within repeat with fold-training censoring weights",
+  "risk_group_thresholds": "tertiles defined from averaged TCGA out-of-fold risks and transferred unchanged",
+  "seed": 20260721,
+  "subgroups": [
+    "EAC",
+    "ESCC"
+  ]
+}

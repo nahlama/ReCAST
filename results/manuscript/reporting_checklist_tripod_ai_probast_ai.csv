@@ -1,0 +1,20 @@
+reporting_domain,status,evidence_or_action
+Title/abstract,Partial,Add structured abstract after journal selection
+Data sources and study dates,Complete,MANUSCRIPT_DESIGN.md and Table 1
+Participants and eligibility,Complete,Cohort code and cohort/summary.json
+Outcome definition,Complete,Overall survival time and death indicator
+Predictor definition and availability,Complete,features/diagnostics.json and methods draft
+Sample size and event count,Complete,182 patients and 77 deaths
+Missing-data handling,Complete,Training-fold median imputation
+Model specification and tuning,Complete,"Locked config, source code, inner selection artifacts"
+Internal validation,Complete,10 x 5-fold locked patient splits
+External evaluation,Complete,60 non-overlapping patients; 33 deaths
+Performance measures and uncertainty,Complete,"Uno/Harrell C, AUC, Brier/IBS, calibration, bootstrap CI"
+Model output availability,Complete,Per-fold and external prediction CSV files
+Fairness/subgroup evaluation,Complete (exploratory),EAC/ESCC descriptive metrics and interaction tests; underpowered for fairness claims
+Clinical utility/decision curve,Complete (exploratory),IPCW decision curves at 1 and 3 years; thresholds were not prospectively selected
+External molecular evaluation,Complete,GENCODE 50 exact probe remap; 75 prespecified genes and 24 pathways tested; none passed FDR
+Risk-of-bias assessment,Complete author assessment,Domain-level PROBAST+AI evidence map; independent assessor still required
+Registration/protocol,Partial,Versioned protocol and locked config exist; no prospective registration
+Code/data availability,Partial,Repository is reproducible locally; public archive/DOI pending
+Funding/conflicts/author roles,Pending author input,Cannot be inferred from analysis files

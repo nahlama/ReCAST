@@ -1,0 +1,8 @@
+figure,path,source_artifacts,format,font_family,font_weight
+figureS1_cohort_flow.svg,/mnt/d/My-Work/Esophageal/New/artifacts/final/figures/supplementary/figureS1_cohort_flow.svg,cohort/reference summaries and external overlap audit,editable_svg,Times New Roman,bold
+figureS2_reference_composition.svg,/mnt/d/My-Work/Esophageal/New/artifacts/final/figures/supplementary/figureS2_reference_composition.svg,reference/metadata.csv,editable_svg,Times New Roman,bold
+figureS3_simulation_distributions.svg,/mnt/d/My-Work/Esophageal/New/artifacts/final/figures/supplementary/figureS3_simulation_distributions.svg,technical_validation/mixture_results.csv,editable_svg,Times New Roman,bold
+figureS4_fold_distributions.svg,/mnt/d/My-Work/Esophageal/New/artifacts/final/figures/supplementary/figureS4_fold_distributions.svg,benchmark and SurvPFN challenger fold metrics,editable_svg,Times New Roman,bold
+figureS5_time_metrics_calibration.svg,/mnt/d/My-Work/Esophageal/New/artifacts/final/figures/supplementary/figureS5_time_metrics_calibration.svg,clinical outer-fold time-specific metrics,editable_svg,Times New Roman,bold
+figureS6_biology_full.svg,/mnt/d/My-Work/Esophageal/New/artifacts/final/figures/supplementary/figureS6_biology_full.svg,complete marker stability and exploratory association tables,editable_svg,Times New Roman,bold
+figureS7_external_audit.svg,/mnt/d/My-Work/Esophageal/New/artifacts/final/figures/supplementary/figureS7_external_audit.svg,external cohort overlap and platform annotation audit,editable_svg,Times New Roman,bold

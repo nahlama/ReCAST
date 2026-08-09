@@ -1,0 +1,89 @@
+{
+  "bootstrap_95_ci": {
+    "auc_t1095": {
+      "high": 0.7852308221418003,
+      "low": 0.4718354628649888,
+      "valid_draws": 5000
+    },
+    "auc_t365": {
+      "high": 0.7499991663769627,
+      "low": 0.42330234983377524,
+      "valid_draws": 5000
+    },
+    "brier_t1095": {
+      "high": 0.9942901225668582,
+      "low": 0.6273915548460585,
+      "valid_draws": 5000
+    },
+    "brier_t365": {
+      "high": 0.2944876037872808,
+      "low": 0.15135640575197853,
+      "valid_draws": 5000
+    },
+    "calibration_intercept_t1095": {
+      "high": -0.6989906843589798,
+      "low": -1.896720003771766,
+      "valid_draws": 5000
+    },
+    "calibration_intercept_t365": {
+      "high": 0.7218130598108314,
+      "low": -1.8552733091685456,
+      "valid_draws": 5000
+    },
+    "calibration_slope_t1095": {
+      "high": 1.6460196810179197,
+      "low": -0.06439119400192532,
+      "valid_draws": 5000
+    },
+    "calibration_slope_t365": {
+      "high": 1.3249007291852903,
+      "low": -0.3124266743585615,
+      "valid_draws": 5000
+    },
+    "harrell_c": {
+      "high": 0.7061054225580988,
+      "low": 0.4959985115020298,
+      "valid_draws": 5000
+    },
+    "integrated_brier": {
+      "high": 0.603634394157741,
+      "low": 0.4245432101298402,
+      "valid_draws": 5000
+    },
+    "uno_c": {
+      "high": 0.7419265278852392,
+      "low": 0.47678655610357107,
+      "valid_draws": 5000
+    }
+  },
+  "bootstrap_iterations": 5000,
+  "evaluation_times_days": [
+    365.0,
+    1095.0
+  ],
+  "events_external": 33,
+  "events_training": 77,
+  "excluded_overlapping_series": "GSE53624",
+  "external_series": "GSE53625",
+  "external_subset": "non_overlapping_patients_only",
+  "internal_candidate_selection": [],
+  "metrics": {
+    "auc_t1095": 0.6308914320343079,
+    "auc_t365": 0.5860046342834789,
+    "brier_t1095": 0.7986858546511311,
+    "brier_t365": 0.2197283420124567,
+    "calibration_intercept_t1095": -1.2764024917646704,
+    "calibration_intercept_t365": -0.5258509917264628,
+    "calibration_slope_t1095": 0.6678861106858611,
+    "calibration_slope_t365": 0.44980359872010645,
+    "harrell_c": 0.5984474241354976,
+    "integrated_brier": 0.5092070983317939,
+    "uno_c": 0.6133226323136648
+  },
+  "model": "survivalpfn",
+  "n_external": 60,
+  "n_training": 182,
+  "panel": "clinical_only",
+  "selected_params": {},
+  "training_cohort": "TCGA-ESCA"
+}

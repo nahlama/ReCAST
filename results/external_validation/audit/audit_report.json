@@ -1,0 +1,49 @@
+{
+  "cohort_patient_overlap": {
+    "GSE53624__GSE53625": 119
+  },
+  "cohorts": [
+    {
+      "clinical_validation_status": "ready",
+      "cohort": "GSE53624",
+      "complete_clinical_records": 119,
+      "events": 73,
+      "gene_rows": 72,
+      "gene_samples": 238,
+      "omics_validation_status": "blocked_requires_sequence_reannotation",
+      "probe_rows": 71584,
+      "probe_samples": 238,
+      "reported_gene_names_traceable_to_platform": 0,
+      "tumor_patients": 119
+    },
+    {
+      "clinical_validation_status": "ready",
+      "cohort": "GSE53625",
+      "complete_clinical_records": 179,
+      "events": 106,
+      "gene_rows": 72,
+      "gene_samples": 358,
+      "omics_validation_status": "blocked_requires_sequence_reannotation",
+      "probe_rows": 71584,
+      "probe_samples": 358,
+      "reported_gene_names_traceable_to_platform": 0,
+      "tumor_patients": 179
+    }
+  ],
+  "decision": {
+    "clinical_external_validation": "ready",
+    "omics_external_validation": "blocked_requires_sequence_reannotation",
+    "reason": "GPL19748 supplies probe names rather than a validated current gene-symbol mapping; the existing 72-row gene matrices are not traceable to the supplied platform map."
+  },
+  "platform_mapping": {
+    "direct_tcga_gene_overlap": 0,
+    "feature_rows": 71584,
+    "feature_rows_with_any_match": 71516,
+    "feature_rows_with_sequence": 71516,
+    "feature_rows_with_unique_match": 63204,
+    "gene_mapping_status": "blocked_requires_sequence_reannotation",
+    "probe_name_rows": 71584,
+    "probe_name_rows_with_sequence": 71516,
+    "unique_platform_names": 63204
+  }
+}

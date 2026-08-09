@@ -1,0 +1,11 @@
+Model,Histology,Patients,Events,Harrell c,Uno c
+Elastic-net Cox,EAC,88,45,0.5249,0.55
+Elastic-net Cox,ESCC,94,32,0.6657,0.6205
+Random survival forest,EAC,88,45,0.5135,0.532
+Random survival forest,ESCC,94,32,0.6495,0.6151
+SurvivalPFN,EAC,88,45,0.523,0.5355
+SurvivalPFN,ESCC,94,32,0.704,0.6462
+SurvPFN (June 2026),EAC,88,45,0.4917,0.4933
+SurvPFN (June 2026),ESCC,94,32,0.6747,0.6424
+XGBoost-AFT,EAC,88,45,0.4936,0.4956
+XGBoost-AFT,ESCC,94,32,0.6171,0.6395

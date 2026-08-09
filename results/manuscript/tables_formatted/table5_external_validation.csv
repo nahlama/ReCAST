@@ -1,0 +1,4 @@
+Model,n,Deaths,Harrell C,Uno C (95% CI),Integrated Brier
+SurvivalPFN,60,33,0.598,0.613 (0.477 to 0.742),0.509
+Elastic-net Cox,60,33,0.582,0.609 (0.472 to 0.738),0.567
+SurvPFN (June 2026),60,33,0.544,0.574 (0.433 to 0.708),0.492

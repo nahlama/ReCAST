@@ -1,0 +1,88 @@
+{
+  "bootstrap_95_ci": {
+    "auc_t1095": {
+      "high": 0.7157421953949905,
+      "low": 0.3809592230638521,
+      "valid_draws": 5000
+    },
+    "auc_t365": {
+      "high": 0.6833722071130889,
+      "low": 0.3562364052531752,
+      "valid_draws": 5000
+    },
+    "brier_t1095": {
+      "high": 0.8956990019251676,
+      "low": 0.628604877184785,
+      "valid_draws": 5000
+    },
+    "brier_t365": {
+      "high": 0.29274661827961174,
+      "low": 0.16157610347588192,
+      "valid_draws": 5000
+    },
+    "calibration_intercept_t1095": {
+      "high": -0.6023037768844557,
+      "low": -1.736332165975257,
+      "valid_draws": 5000
+    },
+    "calibration_intercept_t365": {
+      "high": 0.4776091136656481,
+      "low": -2.6776283647553765,
+      "valid_draws": 5000
+    },
+    "calibration_slope_t1095": {
+      "high": 1.5311100083742382,
+      "low": -0.6878085635224245,
+      "valid_draws": 5000
+    },
+    "calibration_slope_t365": {
+      "high": 1.3950223786244043,
+      "low": -1.0823996102004771,
+      "valid_draws": 5000
+    },
+    "harrell_c": {
+      "high": 0.6459639494965582,
+      "low": 0.4445147451150047,
+      "valid_draws": 5000
+    },
+    "integrated_brier": {
+      "high": 0.55471815568771,
+      "low": 0.4280741783792359,
+      "valid_draws": 5000
+    },
+    "uno_c": {
+      "high": 0.7076583050707637,
+      "low": 0.43261014649607715,
+      "valid_draws": 5000
+    }
+  },
+  "bootstrap_iterations": 5000,
+  "checkpoint": "survpfn_nr.pt",
+  "evaluation_times_days": [
+    365.0,
+    1095.0
+  ],
+  "events_external": 33,
+  "events_training": 77,
+  "excluded_overlapping_series": "GSE53624",
+  "external_series": "GSE53625",
+  "external_subset": "non_overlapping_patients_only",
+  "metrics": {
+    "auc_t1095": 0.5443825062069596,
+    "auc_t365": 0.5224959271423311,
+    "brier_t1095": 0.7587606809465763,
+    "brier_t365": 0.22466510618318516,
+    "calibration_intercept_t1095": -1.1387325419488366,
+    "calibration_intercept_t365": -0.9715265072605203,
+    "calibration_slope_t1095": 0.3531886544345294,
+    "calibration_slope_t365": 0.16119817795176705,
+    "harrell_c": 0.544107268877911,
+    "integrated_brier": 0.4917128935648808,
+    "uno_c": 0.5735835285529257
+  },
+  "model": "survpfn",
+  "n_external": 60,
+  "n_training": 182,
+  "panel": "clinical_only",
+  "training_cohort": "TCGA-ESCA"
+}

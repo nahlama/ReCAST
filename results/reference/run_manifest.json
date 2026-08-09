@@ -1,0 +1,42 @@
+{
+  "command": "build-reference",
+  "python": "3.11.15 | packaged by conda-forge | (main, Mar  5 2026, 16:45:40) [GCC 14.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.40",
+  "inputs": [
+    {
+      "path": "/mnt/d/My-Work/Esophageal/New/Data/TISCH2/ESCA_GSE160269/ESCA_GSE160269_CellMetainfo_table.tsv",
+      "bytes": 23632125,
+      "sha256": "34F58D5FF7DD2DEA1E21D26E12EAE10969B07E26B7384128E7CF561C7C012BC4"
+    },
+    {
+      "path": "/mnt/d/My-Work/Esophageal/New/Data/GEO_raw/GSE160269/GSE160269_CD45neg_cells.txt.gz",
+      "bytes": 542427,
+      "sha256": "203C68409AA0933385B915A1EC874884FD8CC232E60E8F3E82EC31F001A4350F"
+    },
+    {
+      "path": "/mnt/d/My-Work/Esophageal/New/Data/GEO_raw/GSE160269/GSE160269_CD45neg_UMIs.txt.gz",
+      "bytes": 282514856,
+      "sha256": "383A60E191233191CEE57157BD51097FDAB5B5EF6BEA60EE02A11890F07ED6FE"
+    },
+    {
+      "path": "/mnt/d/My-Work/Esophageal/New/Data/GEO_raw/GSE160269/GSE160269_CD45pos_cells.txt.gz",
+      "bytes": 609242,
+      "sha256": "67E821D2AC5C7629D3773AF6F84532E082BA25E51B12D4DCCA973AB66A860503"
+    },
+    {
+      "path": "/mnt/d/My-Work/Esophageal/New/Data/GEO_raw/GSE160269/GSE160269_CD45pos_UMIs.txt.gz",
+      "bytes": 225886047,
+      "sha256": "654E5D663EB103718A9F32AAE4539222ACE0606B01AA50D2A78B8349BDBF258A"
+    },
+    {
+      "path": "/mnt/d/My-Work/Esophageal/New/Data/GEO_raw/GSE154763/GSE154763_ESCA_metadata.csv.gz",
+      "bytes": 304723,
+      "sha256": "D85A36A2F43D4E136FC37F8A38DA771D50FD2F7C22E64908A39DBD924ED24FEE"
+    },
+    {
+      "path": "/mnt/d/My-Work/Esophageal/New/Data/GEO_raw/GSE154763/GSE154763_ESCA_normalized_expression.csv.gz",
+      "bytes": 29405348,
+      "sha256": "060A5957180F2E4C22A3EA8588BABDB57A55BADEF95A0D1E1D5B9249DDB163E9"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+candidate_model,baseline_model,panel,metric,direction,paired_folds,mean_improvement,ci95_low,ci95_high,probability_improvement_gt_zero
+survpfn,elastic_net_cox,clinical,uno_c,higher_is_better,50,-0.006979201850765746,-0.02901320592456275,0.01730351648184208,0.274
+survpfn,elastic_net_cox,clinical,harrell_c,higher_is_better,50,-0.007046999241220486,-0.017705953495219237,0.003354886490279286,0.0942
+survpfn,elastic_net_cox,clinical,integrated_brier,lower_is_better,50,-0.011033956159164813,-0.018709891096172066,-0.003166719155455975,0.003
+survpfn,random_survival_forest,clinical,uno_c,higher_is_better,50,0.0009382923559493406,-0.016942320551184907,0.018065780786145305,0.5526
+survpfn,random_survival_forest,clinical,harrell_c,higher_is_better,50,0.011193443867989128,-0.0006782453068159256,0.022738053128162006,0.9686
+survpfn,random_survival_forest,clinical,integrated_brier,lower_is_better,50,-0.017310270827028608,-0.02453158546704813,-0.009717949216717673,0.0
+survpfn,survivalpfn,clinical,uno_c,higher_is_better,50,0.00045623728561433705,-0.026773050666490557,0.033031029042590594,0.477
+survpfn,survivalpfn,clinical,harrell_c,higher_is_better,50,-0.02311281542420155,-0.03722010217048311,-0.009596726064980398,0.0002
+survpfn,survivalpfn,clinical,integrated_brier,lower_is_better,50,-0.014026956718431962,-0.021242788610166662,-0.0059939207752838335,0.0002
+survpfn,xgb_aft,clinical,uno_c,higher_is_better,50,0.049506010248340886,0.02485542342888328,0.07515276074622727,1.0
+survpfn,xgb_aft,clinical,harrell_c,higher_is_better,50,0.022387203731407856,0.003365169179799219,0.04242222224161294,0.99
+survpfn,xgb_aft,clinical,integrated_brier,lower_is_better,50,-0.00225972688490433,-0.016381512138238415,0.013341081093840705,0.3778

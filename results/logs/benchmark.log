@@ -1,0 +1,9 @@
+/home/wiky/miniforge3/envs/qsar/lib/python3.11/site-packages/lifelines/fitters/coxph_fitter.py:1679: RuntimeWarning: overflow encountered in exp
+  scores = weights * exp(dot(X, beta))
+/home/wiky/miniforge3/envs/qsar/lib/python3.11/site-packages/lifelines/fitters/coxph_fitter.py:1733: RuntimeWarning: invalid value encountered in multiply
+  a1 = risk_phi_x_x * denom
+/home/wiky/miniforge3/envs/qsar/lib/python3.11/site-packages/lifelines/fitters/coxph_fitter.py:1735: RuntimeWarning: invalid value encountered in multiply
+  summand = numer * denom[:, None]
+/home/wiky/miniforge3/envs/qsar/lib/python3.11/site-packages/lifelines/fitters/coxph_fitter.py:1740: RuntimeWarning: divide by zero encountered in log
+  log_lik = log_lik + dot(x_death_sum, beta) + weighted_average * log(denom).sum()
+Nested benchmark completed.

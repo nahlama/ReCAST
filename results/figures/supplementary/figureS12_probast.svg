@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="985.619062pt" height="542.731556pt" viewBox="0 0 985.619062 542.731556" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-22T03:02:52.915722</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>ReCAST-Surv reproducible figure pipeline</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 542.731556 
+L 985.619062 542.731556 
+L 985.619062 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 199.539062 507.888 
+L 978.419062 507.888 
+L 978.419062 67.50256 
+L 199.539062 67.50256 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 199.539062 87.52008 
+L 978.419062 87.52008 
+L 978.419062 114.66248 
+L 199.539062 114.66248 
+z
+" clip-path="url(#p7d7bba9c9d)" style="fill: #e9a23b; opacity: 0.82"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 199.539062 121.44808 
+L 978.419062 121.44808 
+L 978.419062 148.59048 
+L 199.539062 148.59048 
+z
+" clip-path="url(#p7d7bba9c9d)" style="fill: #e9a23b; opacity: 0.82"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 199.539062 155.37608 
+L 978.419062 155.37608 
+L 978.419062 182.51848 
+L 199.539062 182.51848 
+z
+" clip-path="url(#p7d7bba9c9d)" style="fill: #2a9d8f; opacity: 0.82"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 199.539062 189.30408 
+L 978.419062 189.30408 
+L 978.419062 216.44648 
+L 199.539062 216.44648 
+z
+" clip-path="url(#p7d7bba9c9d)" style="fill: #c84c4c; opacity: 0.82"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 199.539062 223.23208 
+L 978.419062 223.23208 
+L 978.419062 250.37448 
+L 199.539062 250.37448 
+z
+" clip-path="url(#p7d7bba9c9d)" style="fill: #2a9d8f; opacity: 0.82"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 199.539062 257.16008 
+L 978.419062 257.16008 
+L 978.419062 284.30248 
+L 199.539062 284.30248 
+z
+" clip-path="url(#p7d7bba9c9d)" style="fill: #e9a23b; opacity: 0.82"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 199.539062 291.08808 
+L 978.419062 291.08808 
+L 978.419062 318.23048 
+L 199.539062 318.23048 
+z
+" clip-path="url(#p7d7bba9c9d)" style="fill: #2a9d8f; opacity: 0.82"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 199.539062 325.01608 
+L 978.419062 325.01608 
+L 978.419062 352.15848 
+L 199.539062 352.15848 
+z
+" clip-path="url(#p7d7bba9c9d)" style="fill: #e9a23b; opacity: 0.82"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 199.539062 358.94408 
+L 978.419062 358.94408 
+L 978.419062 386.08648 
+L 199.539062 386.08648 
+z
+" clip-path="url(#p7d7bba9c9d)" style="fill: #2a9d8f; opacity: 0.82"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 199.539062 392.87208 
+L 978.419062 392.87208 
+L 978.419062 420.01448 
+L 199.539062 420.01448 
+z
+" clip-path="url(#p7d7bba9c9d)" style="fill: #c84c4c; opacity: 0.82"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 199.539062 426.80008 
+L 978.419062 426.80008 
+L 978.419062 453.94248 
+L 199.539062 453.94248 
+z
+" clip-path="url(#p7d7bba9c9d)" style="fill: #c84c4c; opacity: 0.82"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 199.539062 460.72808 
+L 978.419062 460.72808 
+L 978.419062 487.87048 
+L 199.539062 487.87048 
+z
+" clip-path="url(#p7d7bba9c9d)" style="fill: #c84c4c; opacity: 0.82"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m2586eba163" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 1.1"/>
+      </defs>
+      <g>
+       <use xlink:href="#m2586eba163" x="199.539062" y="101.09128" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font: 700 10px 'Times New Roman'; text-anchor: end" x="192.539062" y="104.480343" transform="rotate(-0 192.539062 104.480343)">Participants and data sources</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m2586eba163" x="199.539062" y="135.01928" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font: 700 10px 'Times New Roman'; text-anchor: end" x="192.539062" y="138.330218" transform="rotate(-0 192.539062 138.330218)">Predictors</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m2586eba163" x="199.539062" y="168.94728" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font: 700 10px 'Times New Roman'; text-anchor: end" x="192.539062" y="172.258218" transform="rotate(-0 192.539062 172.258218)">Outcome</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m2586eba163" x="199.539062" y="202.87528" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font: 700 10px 'Times New Roman'; text-anchor: end" x="192.539062" y="206.264343" transform="rotate(-0 192.539062 206.264343)">Sample size and data complexity</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m2586eba163" x="199.539062" y="236.80328" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font: 700 10px 'Times New Roman'; text-anchor: end" x="192.539062" y="240.192343" transform="rotate(-0 192.539062 240.192343)">Missing data</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m2586eba163" x="199.539062" y="270.73128" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font: 700 10px 'Times New Roman'; text-anchor: end" x="192.539062" y="274.042218" transform="rotate(-0 192.539062 274.042218)">Model development</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m2586eba163" x="199.539062" y="304.65928" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font: 700 10px 'Times New Roman'; text-anchor: end" x="192.539062" y="307.970217" transform="rotate(-0 192.539062 307.970217)">Internal evaluation</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m2586eba163" x="199.539062" y="338.58728" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font: 700 10px 'Times New Roman'; text-anchor: end" x="192.539062" y="341.898217" transform="rotate(-0 192.539062 341.898217)">External evaluation</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m2586eba163" x="199.539062" y="372.51528" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font: 700 10px 'Times New Roman'; text-anchor: end" x="192.539062" y="375.826217" transform="rotate(-0 192.539062 375.826217)">Performance measures</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m2586eba163" x="199.539062" y="406.44328" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font: 700 10px 'Times New Roman'; text-anchor: end" x="192.539062" y="409.832342" transform="rotate(-0 192.539062 409.832342)">Subgroups and fairness</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m2586eba163" x="199.539062" y="440.37128" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font: 700 10px 'Times New Roman'; text-anchor: end" x="192.539062" y="443.760342" transform="rotate(-0 192.539062 443.760342)">Applicability</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m2586eba163" x="199.539062" y="474.29928" style="stroke: #000000; stroke-width: 1.1"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font: 700 10px 'Times New Roman'; text-anchor: end" x="192.539062" y="477.688342" transform="rotate(-0 192.539062 477.688342)">Overall predictive-performance risk of bias</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_15">
+    <path d="M 199.539062 507.888 
+L 199.539062 67.50256 
+" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 199.539062 507.888 
+L 978.419062 507.888 
+" style="fill: none; stroke: #000000; stroke-width: 1.1; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_13">
+    <text style="fill: #143d59; font: 700 9.5px 'Times New Roman', serif; text-anchor: start" x="215.116662" y="103.220616" transform="rotate(-0 215.116662 103.220616)">Some concerns</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #143d59; font: 700 9.5px 'Times New Roman', serif; text-anchor: start" x="215.116662" y="137.148616" transform="rotate(-0 215.116662 137.148616)">Some concerns</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #ffffff; font: 700 9.5px 'Times New Roman', serif; text-anchor: start" x="215.116662" y="171.076616" transform="rotate(-0 215.116662 171.076616)">Low</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #ffffff; font: 700 9.5px 'Times New Roman', serif; text-anchor: start" x="215.116662" y="205.069928" transform="rotate(-0 215.116662 205.069928)">High</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #ffffff; font: 700 9.5px 'Times New Roman', serif; text-anchor: start" x="215.116662" y="238.932616" transform="rotate(-0 215.116662 238.932616)">Low</text>
+   </g>
+   <g id="text_18">
+    <text style="fill: #143d59; font: 700 9.5px 'Times New Roman', serif; text-anchor: start" x="215.116662" y="272.860616" transform="rotate(-0 215.116662 272.860616)">Some concerns</text>
+   </g>
+   <g id="text_19">
+    <text style="fill: #ffffff; font: 700 9.5px 'Times New Roman', serif; text-anchor: start" x="215.116662" y="306.788616" transform="rotate(-0 215.116662 306.788616)">Low</text>
+   </g>
+   <g id="text_20">
+    <text style="fill: #143d59; font: 700 9.5px 'Times New Roman', serif; text-anchor: start" x="215.116662" y="340.716616" transform="rotate(-0 215.116662 340.716616)">Some concerns</text>
+   </g>
+   <g id="text_21">
+    <text style="fill: #ffffff; font: 700 9.5px 'Times New Roman', serif; text-anchor: start" x="215.116662" y="374.644616" transform="rotate(-0 215.116662 374.644616)">Low</text>
+   </g>
+   <g id="text_22">
+    <text style="fill: #ffffff; font: 700 9.5px 'Times New Roman', serif; text-anchor: start" x="215.116662" y="408.637928" transform="rotate(-0 215.116662 408.637928)">High</text>
+   </g>
+   <g id="text_23">
+    <text style="fill: #ffffff; font: 700 9.5px 'Times New Roman', serif; text-anchor: start" x="215.116662" y="442.565928" transform="rotate(-0 215.116662 442.565928)">High</text>
+   </g>
+   <g id="text_24">
+    <text style="fill: #ffffff; font: 700 9.5px 'Times New Roman', serif; text-anchor: start" x="215.116662" y="476.493928" transform="rotate(-0 215.116662 476.493928)">High</text>
+   </g>
+   <g id="text_25">
+    <text style="font: 700 13px 'Times New Roman'; text-anchor: start" x="113.862262" y="54.091725" transform="rotate(-0 113.862262 54.091725)">A</text>
+   </g>
+   <g id="text_26">
+    <text style="font: 700 12px 'Times New Roman', serif; text-anchor: middle" x="588.979063" y="61.50256" transform="rotate(-0 588.979063 61.50256)">Domain-level author assessment; independent reviewer assessment remains required</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_17">
+     <path d="M 741.809687 51.940893 
+L 761.809687 51.940893 
+L 761.809687 44.940893 
+L 741.809687 44.940893 
+z
+" style="fill: #2a9d8f; stroke: #2a9d8f; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_27">
+     <text style="font: 700 10px 'Times New Roman', serif; text-anchor: start" x="769.809687" y="51.940893" transform="rotate(-0 769.809687 51.940893)">Low</text>
+    </g>
+    <g id="patch_18">
+     <path d="M 808.701875 51.940893 
+L 828.701875 51.940893 
+L 828.701875 44.940893 
+L 808.701875 44.940893 
+z
+" style="fill: #e9a23b; stroke: #e9a23b; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_28">
+     <text style="font: 700 10px 'Times New Roman', serif; text-anchor: start" x="836.701875" y="51.940893" transform="rotate(-0 836.701875 51.940893)">Some concerns</text>
+    </g>
+    <g id="patch_19">
+     <path d="M 920.301875 51.940893 
+L 940.301875 51.940893 
+L 940.301875 44.940893 
+L 920.301875 44.940893 
+z
+" style="fill: #c84c4c; stroke: #c84c4c; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_29">
+     <text style="font: 700 10px 'Times New Roman', serif; text-anchor: start" x="948.301875" y="51.940893" transform="rotate(-0 948.301875 51.940893)">High</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_30">
+   <text style="font: 700 14px 'Times New Roman', serif; text-anchor: middle" x="492.419063" y="16.689375" transform="rotate(-0 492.419063 16.689375)">Supplementary Figure S12 | PROBAST+AI-aligned risk-of-bias and applicability evidence map</text>
+  </g>
+  <g id="text_31">
+   <text style="font: 700 9px 'Times New Roman', serif; text-anchor: middle" x="492.419063" y="533.6064" transform="rotate(-0 492.419063 533.6064)">This evidence map is not certification and does not reproduce or replace the official PROBAST+AI assessment tool.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7d7bba9c9d">
+   <rect x="199.539062" y="67.50256" width="778.88" height="440.38544"/>
+  </clipPath>
+ </defs>
+</svg>

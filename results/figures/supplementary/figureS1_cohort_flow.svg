@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1044.131791pt" height="385.488pt" viewBox="0 0 1044.131791 385.488" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-22T02:29:02.766633</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>ReCAST-Surv reproducible figure pipeline</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 385.488 
+L 1044.131791 385.488 
+L 1044.131791 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 70.409321 135.997464 
+L 315.631026 135.997464 
+Q 321.72349 135.997464 321.72349 131.792856 
+L 321.72349 91.323504 
+Q 321.72349 87.118896 315.631026 87.118896 
+L 70.409321 87.118896 
+Q 64.316857 87.118896 64.316857 91.323504 
+L 64.316857 131.792856 
+Q 64.316857 135.997464 70.409321 135.997464 
+z
+" clip-path="url(#pc8fc9fbb33)" style="fill: #2f6b9a; opacity: 0.14; stroke: #2f6b9a; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 193.020174 136.944457 
+Q 193.020174 156.233219 193.020174 173.84493 
+" clip-path="url(#pc8fc9fbb33)" style="fill: none; stroke: #143d59; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 195.620174 168.64493 
+L 193.020174 173.84493 
+L 190.420174 168.64493 
+z
+" clip-path="url(#pc8fc9fbb33)" style="fill: #143d59; stroke: #143d59; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 70.409321 225.345384 
+L 315.631026 225.345384 
+Q 321.72349 225.345384 321.72349 221.140776 
+L 321.72349 180.671424 
+Q 321.72349 176.466816 315.631026 176.466816 
+L 70.409321 176.466816 
+Q 64.316857 176.466816 64.316857 180.671424 
+L 64.316857 221.140776 
+Q 64.316857 225.345384 70.409321 225.345384 
+z
+" clip-path="url(#pc8fc9fbb33)" style="fill: #2a9d8f; opacity: 0.14; stroke: #2a9d8f; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 193.020174 226.292377 
+Q 193.020174 245.581139 193.020174 263.19285 
+" clip-path="url(#pc8fc9fbb33)" style="fill: none; stroke: #143d59; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 195.620174 257.99285 
+L 193.020174 263.19285 
+L 190.420174 257.99285 
+z
+" clip-path="url(#pc8fc9fbb33)" style="fill: #143d59; stroke: #143d59; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 70.409321 325.204824 
+L 315.631026 325.204824 
+Q 321.72349 325.204824 321.72349 321.000216 
+L 321.72349 270.019344 
+Q 321.72349 265.814736 315.631026 265.814736 
+L 70.409321 265.814736 
+Q 64.316857 265.814736 64.316857 270.019344 
+L 64.316857 321.000216 
+Q 64.316857 325.204824 70.409321 325.204824 
+z
+" clip-path="url(#pc8fc9fbb33)" style="fill: #7a5aa6; opacity: 0.14; stroke: #7a5aa6; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font: 700 13px 'Times New Roman'; text-anchor: start" x="7.2" y="55.783558" transform="rotate(-0 7.2 55.783558)">A</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(113.368299 109.04428)">TCGA-ESCA primary-tumour RNA-seq</text>
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(150.855424 118.340018)">and clinical metadata</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(128.78908 198.297325)">One primary tumour per patient</text>
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(123.399892 207.765563)">OS time &gt; 0; eligible EAC or ESCC</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(144.725924 288.173786)">Locked discovery cohort</text>
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(153.026767 297.635124)">n = 182 | deaths = 77</text>
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(148.681924 307.096461)">EAC = 88 | ESCC = 94</text>
+   </g>
+   <g id="text_5">
+    <text style="font: 700 12px 'Times New Roman', serif; text-anchor: middle" x="193.020174" y="56.9424" transform="rotate(-0 193.020174 56.9424)">TCGA discovery cohort</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_7">
+    <path d="M 400.97816 135.997464 
+L 524.35057 135.997464 
+Q 530.443035 135.997464 530.443035 131.792856 
+L 530.443035 91.323504 
+Q 530.443035 87.118896 524.35057 87.118896 
+L 400.97816 87.118896 
+Q 394.885695 87.118896 394.885695 91.323504 
+L 394.885695 131.792856 
+Q 394.885695 135.997464 400.97816 135.997464 
+z
+" clip-path="url(#p07bd61a88a)" style="fill: #2f6b9a; opacity: 0.14; stroke: #2f6b9a; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 553.289777 135.997464 
+L 676.662187 135.997464 
+Q 682.754652 135.997464 682.754652 131.792856 
+L 682.754652 91.323504 
+Q 682.754652 87.118896 676.662187 87.118896 
+L 553.289777 87.118896 
+Q 547.197312 87.118896 547.197312 91.323504 
+L 547.197312 131.792856 
+Q 547.197312 135.997464 553.289777 135.997464 
+z
+" clip-path="url(#p07bd61a88a)" style="fill: #e9a23b; opacity: 0.14; stroke: #e9a23b; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 464.250557 136.157761 
+Q 491.221093 156.756417 516.858834 176.337156 
+" clip-path="url(#p07bd61a88a)" style="fill: none; stroke: #143d59; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 514.30438 171.114631 
+L 516.858834 176.337156 
+L 511.148142 175.247204 
+z
+" clip-path="url(#p07bd61a88a)" style="fill: #143d59; stroke: #143d59; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 613.38979 136.157761 
+Q 586.419254 156.756417 560.781513 176.337156 
+" clip-path="url(#p07bd61a88a)" style="fill: none; stroke: #143d59; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 566.492205 175.247204 
+L 560.781513 176.337156 
+L 563.335967 171.114631 
+z
+" clip-path="url(#p07bd61a88a)" style="fill: #143d59; stroke: #143d59; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 416.209321 230.601144 
+L 661.431026 230.601144 
+Q 667.52349 230.601144 667.52349 226.396536 
+L 667.52349 180.671424 
+Q 667.52349 176.466816 661.431026 176.466816 
+L 416.209321 176.466816 
+Q 410.116857 176.466816 410.116857 180.671424 
+L 410.116857 226.396536 
+Q 410.116857 230.601144 416.209321 230.601144 
+z
+" clip-path="url(#p07bd61a88a)" style="fill: #2a9d8f; opacity: 0.14; stroke: #2a9d8f; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 538.820174 231.548137 
+Q 538.820174 250.836899 538.820174 268.44861 
+" clip-path="url(#p07bd61a88a)" style="fill: none; stroke: #143d59; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 541.420174 263.24861 
+L 538.820174 268.44861 
+L 536.220174 263.24861 
+z
+" clip-path="url(#p07bd61a88a)" style="fill: #143d59; stroke: #143d59; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 416.209321 330.460584 
+L 661.431026 330.460584 
+Q 667.52349 330.460584 667.52349 326.255976 
+L 667.52349 275.275104 
+Q 667.52349 271.070496 661.431026 271.070496 
+L 416.209321 271.070496 
+Q 410.116857 271.070496 410.116857 275.275104 
+L 410.116857 326.255976 
+Q 410.116857 330.460584 416.209321 330.460584 
+z
+" clip-path="url(#p07bd61a88a)" style="fill: #7a5aa6; opacity: 0.14; stroke: #7a5aa6; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_6">
+    <text style="font: 700 13px 'Times New Roman'; text-anchor: start" x="353" y="55.783558" transform="rotate(-0 353 55.783558)">B</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(439.660052 108.89478)">GSE160269</text>
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(432.12899 118.345768)">cell-level inputs</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(591.97167 108.89478)">GSE154763</text>
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(584.440607 118.345768)">cell-level inputs</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(478.346705 201.02008)">Donor-aware state aggregation</text>
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(468.635674 210.315818)">before construction of state anchors</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(501.38983 293.359396)">Reference resource</text>
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(489.637549 302.810384)">216,332 cells | 67 patients</text>
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(454.759486 312.278621)">965 donor-state profiles | 13 modeled states</text>
+   </g>
+   <g id="text_11">
+    <text style="font: 700 12px 'Times New Roman', serif; text-anchor: middle" x="538.820174" y="56.9424" transform="rotate(-0 538.820174 56.9424)">Single-cell reference</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_14">
+    <path d="M 762.009321 135.997464 
+L 1007.231026 135.997464 
+Q 1013.32349 135.997464 1013.32349 131.792856 
+L 1013.32349 91.323504 
+Q 1013.32349 87.118896 1007.231026 87.118896 
+L 762.009321 87.118896 
+Q 755.916857 87.118896 755.916857 91.323504 
+L 755.916857 131.792856 
+Q 755.916857 135.997464 762.009321 135.997464 
+z
+" clip-path="url(#p49075c1fa5)" style="fill: #2f6b9a; opacity: 0.14; stroke: #2f6b9a; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 884.620174 136.944457 
+Q 884.620174 156.233219 884.620174 173.84493 
+" clip-path="url(#p49075c1fa5)" style="fill: none; stroke: #143d59; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 887.220174 168.64493 
+L 884.620174 173.84493 
+L 882.020174 168.64493 
+z
+" clip-path="url(#p49075c1fa5)" style="fill: #143d59; stroke: #143d59; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 762.009321 230.601144 
+L 1007.231026 230.601144 
+Q 1013.32349 230.601144 1013.32349 226.396536 
+L 1013.32349 180.671424 
+Q 1013.32349 176.466816 1007.231026 176.466816 
+L 762.009321 176.466816 
+Q 755.916857 176.466816 755.916857 180.671424 
+L 755.916857 226.396536 
+Q 755.916857 230.601144 762.009321 230.601144 
+z
+" clip-path="url(#p49075c1fa5)" style="fill: #c84c4c; opacity: 0.14; stroke: #c84c4c; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 884.620174 231.548137 
+Q 884.620174 250.836899 884.620174 268.44861 
+" clip-path="url(#p49075c1fa5)" style="fill: none; stroke: #143d59; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 887.220174 263.24861 
+L 884.620174 268.44861 
+L 882.020174 263.24861 
+z
+" clip-path="url(#p49075c1fa5)" style="fill: #143d59; stroke: #143d59; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 762.009321 330.460584 
+L 1007.231026 330.460584 
+Q 1013.32349 330.460584 1013.32349 326.255976 
+L 1013.32349 275.275104 
+Q 1013.32349 271.070496 1007.231026 271.070496 
+L 762.009321 271.070496 
+Q 755.916857 271.070496 755.916857 275.275104 
+L 755.916857 326.255976 
+Q 755.916857 330.460584 762.009321 330.460584 
+z
+" clip-path="url(#p49075c1fa5)" style="fill: #7a5aa6; opacity: 0.14; stroke: #7a5aa6; stroke-width: 1.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_12">
+    <text style="font: 700 13px 'Times New Roman'; text-anchor: start" x="698.8" y="55.783558" transform="rotate(-0 698.8 55.783558)">C</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(839.255549 108.966655)">GSE53625 SuperSeries</text>
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(845.089642 118.417643)">179 tumour patients</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(819.581924 201.02008)">Remove 119 patients overlapping</text>
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(854.076174 210.315818)">with GSE53624</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(821.880486 293.426096)">Locked non-overlapping test set</text>
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(846.926767 302.887434)">n = 60 | deaths = 33</text>
+    <text style="fill: #143d59; font: 700 9.2px 'Times New Roman', serif" transform="translate(838.868861 312.355671)">Clinical validation only</text>
+   </g>
+   <g id="text_16">
+    <text style="font: 700 12px 'Times New Roman', serif; text-anchor: middle" x="884.620174" y="56.9424" transform="rotate(-0 884.620174 56.9424)">Locked external cohort</text>
+   </g>
+  </g>
+  <g id="text_17">
+   <text style="font: 700 14px 'Times New Roman', serif; text-anchor: middle" x="525.731791" y="16.689375" transform="rotate(-0 525.731791 16.689375)">Supplementary Figure S1 | Data-resource inclusion and independence audit</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc8fc9fbb33">
+   <rect x="40.708556" y="62.9424" width="304.623235" height="315.3456"/>
+  </clipPath>
+  <clipPath id="p07bd61a88a">
+   <rect x="386.508556" y="62.9424" width="304.623235" height="315.3456"/>
+  </clipPath>
+  <clipPath id="p49075c1fa5">
+   <rect x="732.308556" y="62.9424" width="304.623235" height="315.3456"/>
+  </clipPath>
+ </defs>
+</svg>

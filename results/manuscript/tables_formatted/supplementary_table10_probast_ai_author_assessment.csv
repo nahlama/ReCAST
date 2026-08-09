@@ -1,0 +1,13 @@
+Domain,Author judgment,Evidence,Mitigation or claim boundary
+Participants and data sources,Some concerns,Retrospective public cohorts; eligibility and overlap exclusions are reproducible.,Report selection mechanisms and cohort differences; avoid deployment claims.
+Predictors,Some concerns,"Clinical predictors are available in both cohorts, but external gene annotation is untraceable.",Restrict external claims to clinical variables until versioned reannotation passes.
+Outcome,Low,Overall survival time and death status are defined consistently and without predictor knowledge.,Report administrative differences in follow-up.
+Sample size and data complexity,High,The development set has 182 patients and 77 deaths relative to multiple candidate models.,"Use compact predictors, penalization, nested validation, and acknowledge imprecision."
+Missing data,Low,Median imputation is fitted inside each training fold.,Publish fold-local preprocessing code and missingness counts.
+Model development,Some concerns,"Candidate models and tuning are prespecified, but complex learners remain unstable in small samples.",Retain elastic-net Cox and prohibit post-result model switching.
+Internal evaluation,Low,Ten repeated five-fold outer splits are locked; preprocessing and tuning are training-only.,"Report paired fold uncertainty and all models, including negative results."
+External evaluation,Some concerns,The 60-patient test is non-overlapping but small and ESCC-only; calibration is poor.,No external recalibration or deployment claim; show confidence intervals and applicability limits.
+Performance measures,Low,"Uno C, Harrell C, dynamic AUC, IPCW Brier/IBS, calibration and decision curves are reported.",Interpret clinical utility as exploratory because thresholds were not prospectively chosen.
+Subgroups and fairness,High,"Sex, ancestry and histology strata are too small for reliable fairness conclusions.",Provide descriptive EAC/ESCC results and interaction tests; state that fairness is unresolved.
+Applicability,High,Public retrospective cohorts and platform discordance limit transportability to contemporary clinical practice.,"Frame as a methodological study, not a clinical decision aid."
+Overall predictive-performance risk of bias,High,Strong validation safeguards do not eliminate small-sample and external-applicability limitations.,Require independent prospective or larger multicentre evaluation before clinical use.

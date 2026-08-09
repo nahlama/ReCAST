@@ -1,0 +1,12 @@
+{
+  "command": "validate",
+  "python": "3.11.15 | packaged by conda-forge | (main, Mar  5 2026, 16:45:40) [GCC 14.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.40",
+  "inputs": [
+    {
+      "path": "/mnt/d/My-Work/Esophageal/New/Data/GEO_raw/SOURCE_MANIFEST.tsv",
+      "bytes": 1849,
+      "sha256": "9CF43CD6EAF8AA70CFEBED4DE78236C452DC5F044BDB96BCB75EFD4B23EB4351"
+    }
+  ]
+}

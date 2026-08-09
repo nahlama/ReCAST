@@ -1,0 +1,2 @@
+repeat,fold,panel,model,n_test,events_test,harrell_c,uno_c,integrated_brier,brier_t365,auc_t365,calibration_intercept_t365,calibration_slope_t365,brier_t1095,auc_t1095,calibration_intercept_t1095,calibration_slope_t1095,brier_t1825,auc_t1825,calibration_intercept_t1825,calibration_slope_t1825
+0,0,clinical,survpfn,37,15,0.6612377850162866,0.6139288660079159,0.1933896532912762,0.17358850451802524,0.7589428236744407,1.3633811703574583,2.8021341715296635,0.1949230072823977,0.4390249882676548,,,0.21012409408228414,0.4390249882676548,,

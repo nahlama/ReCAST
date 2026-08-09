@@ -1,0 +1,21 @@
+{
+  "analysis_role": "locked_secondary_q1_extension",
+  "donors_evaluated": 67,
+  "methods": [
+    "robust_nnls_hpa",
+    "ordinary_nnls",
+    "ridge_nnls",
+    "simplex_nnls",
+    "nu_svr",
+    "unbalanced_ot_hpa"
+  ],
+  "mixtures_per_donor": 5,
+  "primary_method_locked_before_extension": "robust_nnls_hpa",
+  "pseudo_bulk_source": "linear mixtures of donor-state profiles derived from genuine cell-level GEO inputs",
+  "scenarios": [
+    "heldout_donor_clean",
+    "heldout_donor_platform_shift"
+  ],
+  "seed": 20260721,
+  "validation_unit": "completely held-out donor"
+}

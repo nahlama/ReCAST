@@ -1,0 +1,17 @@
+{
+  "checkpoint_path": "/home/wiky/.cache/huggingface/hub/models--samuelboehm--SurvPFN/snapshots/6225cc4c8ccbc3c4c0114d29beb45e7ff88230f9/survpfn_nr.pt",
+  "checkpoint_sha256": "103e6d59a845b056d9cb6620388e8fcd0e11216c6bae322d09e38c7d2ee4de2d",
+  "device": "cpu",
+  "features_sha256": "03d2fbcbbf1944e6ffe8e6e629068fc8de2d51376e176c7e994c55d242a75a9f",
+  "model_filename": "survpfn_nr.pt",
+  "model_repository": "samuelboehm/SurvPFN",
+  "outcomes_sha256": "db6a92e7f90d4f63c3757cbfa0062ced69650f5e0c6121fc7e72dc3104c8fcf2",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.40",
+  "python": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 16:50:00) [GCC 14.3.0]",
+  "runner_sha256": "954c18d676e7c40ead9ba222b5100c3a84714e679471e94cdc11a2118dd9a301",
+  "setup_sha256": "31c9127df726c89432538b8326b7cc37765e3d49e10bb6f4183d91f54e28c06b",
+  "split_manifest_sha256": "af2629335f60f03b8795171d7687704b5fbb310d8078a8a7705448a5567c0c4d",
+  "survpfn_commit": "4f26fe31efd811f546a6a3a12acd28293828ca7e",
+  "tfm_playground_commit": "4afd33e1c60928c8425ac979b9e1fd092ad0f216",
+  "torch": "2.9.0+cpu"
+}

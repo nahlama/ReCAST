@@ -1,0 +1,17 @@
+{
+  "command": "build-cohort",
+  "python": "3.11.15 | packaged by conda-forge | (main, Mar  5 2026, 16:45:40) [GCC 14.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.40",
+  "inputs": [
+    {
+      "path": "/mnt/d/My-Work/Esophageal/New/TCGA_ESCA_Metadata.csv",
+      "bytes": 422331,
+      "sha256": "8863B2C56EF7A5EE453CFE7C8C868A6D87BF81CD2ACEECE698047CAFBC0D42E3"
+    },
+    {
+      "path": "/mnt/d/My-Work/Esophageal/New/ESCA_vst_normalized_matrix.csv",
+      "bytes": 136964885,
+      "sha256": "C2BFF3297DE9077F0313E71D05A57C4A4B6BC2A5E080BEC273008AF783468B1D"
+    }
+  ]
+}

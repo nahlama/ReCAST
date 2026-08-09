@@ -1,0 +1,19 @@
+Model,Horizon days,Risk group,Tcga cutpoint low,Tcga cutpoint high,Patients,Events total followup,Mean predicted risk,Km observed risk,Km ci95 low,Km ci95 high
+Elastic-net Cox,365,low,0.1851,0.2794,24,9,0.1638,0.1667,0.0661,0.3852
+Elastic-net Cox,365,intermediate,0.1851,0.2794,15,11,0.215,0.4667,0.2562,0.7368
+Elastic-net Cox,365,high,0.1851,0.2794,21,13,0.3225,0.1905,0.0761,0.4311
+Elastic-net Cox,1095,low,0.5052,0.6709,25,9,0.4573,0.24,0.1157,0.458
+Elastic-net Cox,1095,intermediate,0.5052,0.6709,14,11,0.5629,0.7857,0.5521,0.9479
+Elastic-net Cox,1095,high,0.5052,0.6709,21,13,0.7332,0.4762,0.2912,0.7033
+SurvivalPFN,365,low,0.1419,0.2858,29,12,0.1052,0.2069,0.0987,0.4036
+SurvivalPFN,365,intermediate,0.1419,0.2858,11,6,0.2064,0.1818,0.0488,0.5526
+SurvivalPFN,365,high,0.1419,0.2858,20,15,0.3708,0.35,0.1847,0.597
+SurvivalPFN,1095,low,0.449,0.654,27,10,0.3785,0.2593,0.133,0.4681
+SurvivalPFN,1095,intermediate,0.449,0.654,14,9,0.5471,0.6429,0.4056,0.8697
+SurvivalPFN,1095,high,0.449,0.654,19,14,0.7266,0.5789,0.3751,0.7963
+SurvPFN (June 2026),365,low,0.196,0.3321,31,14,0.1719,0.1935,0.092,0.3809
+SurvPFN (June 2026),365,intermediate,0.196,0.3321,12,7,0.2677,0.4167,0.1991,0.7299
+SurvPFN (June 2026),365,high,0.196,0.3321,17,12,0.374,0.2353,0.0955,0.5117
+SurvPFN (June 2026),1095,low,0.4046,0.594,32,15,0.3612,0.375,0.2332,0.5648
+SurvPFN (June 2026),1095,intermediate,0.4046,0.594,11,6,0.5175,0.5455,0.2931,0.8334
+SurvPFN (June 2026),1095,high,0.4046,0.594,17,12,0.6413,0.5294,0.3203,0.7704

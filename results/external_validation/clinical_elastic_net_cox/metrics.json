@@ -1,0 +1,165 @@
+{
+  "bootstrap_95_ci": {
+    "auc_t1095": {
+      "high": 0.7693317545377133,
+      "low": 0.45660277491593554,
+      "valid_draws": 5000
+    },
+    "auc_t365": {
+      "high": 0.717967191281843,
+      "low": 0.39034530121056005,
+      "valid_draws": 5000
+    },
+    "brier_t1095": {
+      "high": 1.119716188385658,
+      "low": 0.7320489029681363,
+      "valid_draws": 5000
+    },
+    "brier_t365": {
+      "high": 0.28524591406668104,
+      "low": 0.15320064533400476,
+      "valid_draws": 5000
+    },
+    "calibration_intercept_t1095": {
+      "high": -0.7711138743608104,
+      "low": -2.1417616454300124,
+      "valid_draws": 5000
+    },
+    "calibration_intercept_t365": {
+      "high": 1.358059068930081,
+      "low": -2.3201444745577002,
+      "valid_draws": 5000
+    },
+    "calibration_slope_t1095": {
+      "high": 1.7170390016878154,
+      "low": -0.29515441032557055,
+      "valid_draws": 5000
+    },
+    "calibration_slope_t365": {
+      "high": 2.069485240644515,
+      "low": -0.7622487893600121,
+      "valid_draws": 5000
+    },
+    "harrell_c": {
+      "high": 0.6903372925742063,
+      "low": 0.47999936427209156,
+      "valid_draws": 5000
+    },
+    "integrated_brier": {
+      "high": 0.6582648088918901,
+      "low": 0.48368050535310075,
+      "valid_draws": 5000
+    },
+    "uno_c": {
+      "high": 0.737533870277047,
+      "low": 0.47222718273077063,
+      "valid_draws": 5000
+    }
+  },
+  "bootstrap_iterations": 5000,
+  "evaluation_times_days": [
+    365.0,
+    1095.0
+  ],
+  "events_external": 33,
+  "events_training": 77,
+  "excluded_overlapping_series": "GSE53624",
+  "external_series": "GSE53625",
+  "external_subset": "non_overlapping_patients_only",
+  "internal_candidate_selection": [
+    {
+      "errors": [],
+      "mean_internal_uno_c": 0.5919290882510194,
+      "params": {
+        "l1_ratio": 0.0,
+        "penalizer": 0.01
+      },
+      "valid_folds": 4
+    },
+    {
+      "errors": [],
+      "mean_internal_uno_c": 0.5883988321026185,
+      "params": {
+        "l1_ratio": 0.5,
+        "penalizer": 0.01
+      },
+      "valid_folds": 4
+    },
+    {
+      "errors": [],
+      "mean_internal_uno_c": 0.6091615547488135,
+      "params": {
+        "l1_ratio": 0.0,
+        "penalizer": 0.1
+      },
+      "valid_folds": 4
+    },
+    {
+      "errors": [],
+      "mean_internal_uno_c": 0.5623624887712044,
+      "params": {
+        "l1_ratio": 0.5,
+        "penalizer": 0.1
+      },
+      "valid_folds": 4
+    },
+    {
+      "errors": [],
+      "mean_internal_uno_c": 0.6005599887273729,
+      "params": {
+        "l1_ratio": 0.0,
+        "penalizer": 1.0
+      },
+      "valid_folds": 4
+    },
+    {
+      "errors": [],
+      "mean_internal_uno_c": 0.6047595044377714,
+      "params": {
+        "l1_ratio": 0.5,
+        "penalizer": 1.0
+      },
+      "valid_folds": 4
+    },
+    {
+      "errors": [],
+      "mean_internal_uno_c": 0.6050282119250066,
+      "params": {
+        "l1_ratio": 1.0,
+        "penalizer": 0.1
+      },
+      "valid_folds": 4
+    },
+    {
+      "errors": [],
+      "mean_internal_uno_c": 0.6044579450186459,
+      "params": {
+        "l1_ratio": 1.0,
+        "penalizer": 1.0
+      },
+      "valid_folds": 4
+    }
+  ],
+  "metrics": {
+    "auc_t1095": 0.6156581580874577,
+    "auc_t365": 0.5549184297120286,
+    "brier_t1095": 0.9175588825342235,
+    "brier_t365": 0.21644628351397174,
+    "calibration_intercept_t1095": -1.4022071795234823,
+    "calibration_intercept_t365": -0.43966553276030745,
+    "calibration_slope_t1095": 0.6319197973335655,
+    "calibration_slope_t365": 0.5911872239906194,
+    "harrell_c": 0.5822159491884262,
+    "integrated_brier": 0.5670025830240976,
+    "uno_c": 0.6094181315433962
+  },
+  "model": "elastic_net_cox",
+  "n_external": 60,
+  "n_training": 182,
+  "panel": "clinical_only",
+  "selected_params": {
+    "l1_ratio": 0.0,
+    "penalizer": 0.1
+  },
+  "training_cohort": "TCGA-ESCA"
+}
