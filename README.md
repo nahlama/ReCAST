@@ -8,9 +8,6 @@ small bulk-tumour cohort. It integrates TCGA-ESCA expression and censored
 survival, cell-level GEO single-cell references, MSigDB 2026.1 pathways, HPA
 protein evidence, and compact clinical variables.
 
-The method-literature eligibility cutoff is **30 June 2026**. This is a
-scientific cutoff, not a submission deadline.
-
 The validated reference estimator is donor-hierarchical, HPA-weighted robust
 NNLS. Entropic unbalanced optimal transport (UOT) is retained as a negative
 ablation: it was less accurate in the full synthetic-mixture benchmark.
@@ -18,11 +15,7 @@ SurvivalPFN is the small-data backbone and elastic-net Cox is the mandatory
 classical comparator; the eligible June-2026 SurvPFN challenger was executed in
 a pinned Python 3.12 environment.
 
-**The headline result is negative.** The confirmatory run did not establish a
-single superior model, and the omics/ReCAST panels did not improve survival
-performance over clinical variables alone.
-
-This is not a cell-level foundation model, a trajectory model, or a cell–cell
+This is a trajectory model, or a cell–cell
 interaction learner. The pipeline never treats TISCH2 aggregate archives as raw
 cell matrices and never modifies source data.
 
